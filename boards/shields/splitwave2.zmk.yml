@@ -1,0 +1,13 @@
+file_format: "1"
+id: splitwave2
+name: SplitWave2
+type: shield
+url: https://github.com/aroyx/zmk-config-splitwave2
+requires:
+  - pro_micro
+exposes:
+features:
+  - keys
+siblings:
+  - splitwave2_left
+  - splitwave2_right

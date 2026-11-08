@@ -1,0 +1,20 @@
+if SHIELD_SPLITWAVE2_LEFT
+
+# Name must be less than 16 characters long!
+config ZMK_KEYBOARD_NAME
+    default "SplitWave2"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+config ZMK_USB
+    default y
+
+endif
+
+if SHIELD_SPLITWAVE2_LEFT || SHIELD_SPLITWAVE2_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
